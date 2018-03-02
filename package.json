@@ -4,14 +4,18 @@
   "description": "sjj cli",
   "main": "index.js",
   "bin": {
-    "ssj": "./bin/cli.js"
+    "sjj": "./bin/cli.js"
   },
   "scripts": {
-    "test": ""
+    "test": "",
+    "sjj": "node ./bin/cli.js"
   },
   "author": {
     "name": "baishiup",
     "email": "bb415453941@gmail.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^5.1.0"
+  }
 }
