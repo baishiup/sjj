@@ -1,0 +1,17 @@
+{
+  "name": "sjj",
+  "version": "1.0.0",
+  "description": "sjj cli",
+  "main": "index.js",
+  "bin": {
+    "ssj": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "author": {
+    "name": "baishiup",
+    "email": "bb415453941@gmail.com"
+  },
+  "license": "MIT"
+}
