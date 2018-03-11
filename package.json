@@ -1,14 +1,13 @@
 {
   "name": "sjj",
-  "version": "1.0.0",
+  "version": "0.0.5",
   "description": "sjj cli",
   "main": "index.js",
   "bin": {
     "sjj": "./bin/cli.js"
   },
   "scripts": {
-    "test": "",
-    "sjj": "node ./bin/cli.js"
+    "dev": "node ./bin/cli.js"
   },
   "author": {
     "name": "baishiup",
@@ -16,6 +15,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^5.1.0"
+    "fs-extra": "^5.0.0",
+    "inquirer": "^5.1.0",
+    "node-fs-extra": "^0.8.2",
+    "prompt": "^1.0.0"
   }
 }

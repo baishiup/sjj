@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log(213);
+const core = require('./cli-core');
+
+core.start();
