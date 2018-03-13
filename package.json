@@ -7,7 +7,10 @@
     "sjj": "./bin/cli.js"
   },
   "scripts": {
-    "dev": "node ./bin/cli.js"
+    "init": "node ./bin/cli.js init",
+    "dev": "node ./bin/cli.js dev",
+    "test": "node ./bin/cli.js test",
+    "build": "node ./bin/cli.js build"
   },
   "author": {
     "name": "baishiup",
@@ -18,6 +21,7 @@
     "fs-extra": "^5.0.0",
     "inquirer": "^5.1.0",
     "node-fs-extra": "^0.8.2",
-    "prompt": "^1.0.0"
+    "prompt": "^1.0.0",
+    "require-all": "^2.2.0"
   }
 }
