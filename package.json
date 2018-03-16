@@ -21,7 +21,6 @@
     "fs-extra": "^5.0.0",
     "inquirer": "^5.1.0",
     "node-fs-extra": "^0.8.2",
-    "prompt": "^1.0.0",
-    "require-all": "^2.2.0"
+    "prompt": "^1.0.0"
   }
 }
